@@ -4,7 +4,7 @@
 
     Sintaxe: Object.assign(objDestino, ...objOrigens)
 
-    Parâmetros: objeto de destino e Um ou mais objetos de origem.
+    Parâmetros: objeto de destino de Um ou mais objetos de origem.
 
     Valor de retorno: O objeto de destino será retornado.
 
