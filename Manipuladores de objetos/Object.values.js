@@ -33,8 +33,8 @@ const student = {
   const listSkillsWithValues = (student) => Object.values(student);
   
   // Sem Object.values
-  console.log(listSkillsWithFor(student));
+  console.log(listSkillsWithFor(student)); // [ 'Muito Bom', 'Bom', 'Ótimo', 'Ótimo' ]
   
   // Com Object.values
-  console.log(listSkillsWithValues(student));
+  console.log(listSkillsWithValues(student)); // [ 'Muito Bom', 'Bom', 'Ótimo', 'Ótimo' ]
   

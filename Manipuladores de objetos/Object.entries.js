@@ -1,11 +1,12 @@
 /* 
-Definição do método: O método retorn um array dos próprios pares de [key, value], enumeráveis de um dado objeto.
+  Definição do método: O método retorn um array dos próprios 
+  pares de [key, value], enumeráveis de um dado objeto.
 
-Sintaxe: Object.entries(obj)
+  Sintaxe: Object.entries(obj)
 
-Parâmetros: O próprio objeto que será verificado, cuja [key, value] serão retornados.
+  Parâmetros: O próprio objeto que será verificado, cuja [key, value] serão retornados.
 
-Valor de retorno: Um array de pares [key, value] enumeráveis de propriedade de um dado objeto.
+  Valor de retorno: Um array de pares [key, value] enumeráveis de propriedade de um dado objeto.
 
 */
 
