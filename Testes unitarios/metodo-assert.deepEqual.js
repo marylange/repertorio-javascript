@@ -5,14 +5,14 @@
 
 // Ex:
 
-// var assert = require('assert');
+const assert = require('assert');
 
-// var x = { a: { n: 0 } };
-// var y = { a: { n: 0 } };
-// var z = { a: { n: 1 } };
+const x = { a: { n: 0 } };
+const y = { a: { n: 0 } };
+const z = { a: { n: 1 } };
 
-// assert.deepEqual(x, y); //OK
-// assert.deepEqual(x, z); /* AssertionError: { a: { n: 0 } } deepEqual {a: { n: 1 } } */
+assert.deepEqual(x, y); //OK
+assert.deepEqual(x, z); /* AssertionError: { a: { n: 0 } } deepEqual {a: { n: 1 } } */
 
 /*
     Definição: O método testa se dois objetos e seus 
@@ -49,9 +49,12 @@ console.log(resp2);
 // implemente seus testes aqui
 
 // Teste se a chamada myIndexOf([1, 2, 3, 4], 3) retorna o valor esperado
-assert.deepEqual(resp1, 2); /* (resp1 é o resultado atual da função e o 2 significa a expectativa de resultado, a afirmação é verdadeira 
-                            pois o elemento 3 está posicionado no indice 2) */
+assert.deepEqual(resp1, 2); /* (resp1 é o resultado atual da função e o 2 significa 
+                                a expectativa de resultado, a afirmação é verdadeira 
+                                pois o elemento 3 está posicionado no indice 2) */
 
 // Teste se a chamada myIndexOf([1, 2, 3, 4], 5) retorna o valor esperado
-assert.deepEqual(resp2, 3); /* (resp2 é o resultado atual da função e o 3 significa a expectativa de resultado, a afirmação é falsa pois 
-                            o elemento 5 não existe dentro do array, o resultado da função retorna -1 neste caso.) */
+assert.deepEqual(resp2, 3); /* (resp2 é o resultado atual da função e o 3 significa a 
+                                expectativa de resultado, a afirmação é falsa pois 
+                                o elemento 5 não existe dentro do array, o resultado 
+                                da função retorna -1 neste caso.) */
