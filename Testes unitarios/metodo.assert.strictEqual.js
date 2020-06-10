@@ -13,7 +13,7 @@ assert.strictEqual(50, "50"); /* AssertionError: 50 === '50' */
 /*
     Definição:  O método testa se dois valores são iguais em valor e tipo, usando o operador ===.
 
-    Sintaxe: assert.strictEqual(value1, value2, message);
+    Sintaxe: assert.strictEqual(value1 (atual), value2 (expectativa), message);
 
     Valor de retorno: Nenhum.
 
