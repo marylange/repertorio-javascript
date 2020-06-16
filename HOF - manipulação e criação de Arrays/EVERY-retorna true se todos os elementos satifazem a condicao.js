@@ -1,4 +1,7 @@
-// Retorna true se todos os elementos de um array satisfazem a uma condição.
+/*
+    Retorna true se todos os elementos de um array satisfazem a 
+    uma condição, se pelo menos um não estiver dentro da condição, o EVERY retorna false.
+*/
 
 /*
     O exemplo abaixo usará o every para verificar se o estudante passou em todas as matérias:
