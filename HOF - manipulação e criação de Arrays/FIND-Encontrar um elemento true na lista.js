@@ -35,10 +35,6 @@ console.log(listComFind(list));
   EX: list.find(qualquerNome => qualquerNome === "item2")
 
   O FIND sempre retorna um booleano
-
-  O FIND tem a finalidade de retornar o 
-  primeiro elemento(qualquerNome) que corresponde a condição estabelecida.
-
 */
 
 // Outro ex:
