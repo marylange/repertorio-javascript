@@ -1,4 +1,8 @@
 /*
+  O FIND retornar somente o primeiro elemento que corresponde a condição estabelecida.
+  Quando ele encontra o elemento true, ele sai da função e retorna este elemento.
+
+
   Queremos encontrar e imprimir no console o primeiro 
   elemento de um array que satisfaça a uma determinada condição. Então, a função que deverá ser 
   passada precisa retornar true ou false.
