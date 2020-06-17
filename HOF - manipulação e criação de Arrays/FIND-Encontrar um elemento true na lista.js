@@ -1,11 +1,14 @@
 /*
-  O FIND retornar somente o primeiro elemento que corresponde a condição estabelecida.
-  Quando ele encontra o elemento true, ele sai da função e retorna este elemento.
+A função FIND é chamada para cada elemento até encontrar um 
+elemento true, seu retorno é true ou false e o output é o primeiro 
+elemento true encontrado.
+
+O FIND quando não encontra nenhum resultado, ele retorna undefined.
 
 
-  Queremos encontrar e imprimir no console o primeiro 
-  elemento de um array que satisfaça a uma determinada condição. Então, a função que deverá ser 
-  passada precisa retornar true ou false.
+Queremos encontrar e imprimir no console o primeiro 
+elemento de um array que satisfaça a uma determinada condição. Então, a função que deverá ser 
+passada precisa retornar true ou false.
 */
 const list = ["item1", "item2", "item3", "item4", "item5"];
 
