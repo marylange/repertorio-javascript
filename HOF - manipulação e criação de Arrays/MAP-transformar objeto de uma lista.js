@@ -1,6 +1,9 @@
-//Transforma elementos de uma lista em outros elementos
-//ex: transformar lista de strings em lista de objetos
+/*
+O MAP chama a função recebida como parâmetro e tranforma cada 
+elemento do array de origem e retorna os elementos em um novo array.
 
+ex: transformar lista de strings em lista de objetos
+*/
 const list = ["item1", "item2", "item3", "item4", "item5"];
 
 //Caso com for
