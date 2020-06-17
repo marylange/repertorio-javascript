@@ -1,7 +1,10 @@
-// Retorna um array com todos os elementos que satisfazem a condição da função ou que queremos retirar da lista;
-// Procura item por item;
-// Retorna mais de um elemento.
+/*
+A função recebida como parâmetro testa cada elemento e retorna 
+true ou false. Sua saida é um array contendo todos elementos true.
 
+Procura item por item;
+Retorna mais de um elemento.
+*/
 const list = ["item1", "item2", "item3", "item4", "item5"];
 
 //Caso com for
