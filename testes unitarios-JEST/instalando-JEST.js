@@ -5,11 +5,11 @@
     Passo 2: Criar um arquivo chamado package.json, e logo após escrever o seguinte conteúdo:
 */
 
-{
-    "scripts": {
-        "test": "jest"
-    }
-}
+// {
+//     "scripts": {
+//         "test": "jest"
+//     }
+// }
 
 /*
     Passo 3: No terminal, navegar até a pasta usando o 
