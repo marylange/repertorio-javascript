@@ -34,29 +34,28 @@ test('soma 1 e 2 para dar 3', () => {
 })
 
 
-/*
-    Após escrever os teste, abra o terminal, navegue até a pasta e rode o comando npm test.
-*/
+    /*
+        Após escrever os teste, abra o terminal, navegue até a pasta e rode o comando npm test.
+    */
 
-/*
-    Sintaxe: A função test espera três argumentos:
-    1º Nome do teste:
-    Ex: 'soma 1 e 2 para dar 3'.
-    O nome identifica o teste que está sendo feito e é o texto que aparece quando o teste for executado no terminal.
-
-    2º Função contendo suas expectations:
-    Ex:
-        () => {
-        expect(calcs(1, 2)).toEqual(3)
-        };
-
-    3º Timeout (opcional), indica quanto tempo o JEST deve esperar que o teste execute antes de abortá-lo.
-
-
-        test('sums two values', () => {
-            expect(sum(2, 3)).toEqual(5);
-        });
-*/
+    /*
+        Sintaxe: A função test espera três argumentos:
+        1º Nome do teste:
+        Ex: 'soma 1 e 2 para dar 3'.
+        O nome identifica o teste que está sendo feito e é o texto que aparece quando o teste for executado no terminal.
+    
+        2º Função contendo suas expectations:
+        Ex:
+            () => {
+            expect(calcs(1, 2)).toEqual(3)
+            };
+    
+        3º Timeout (opcional), indica quanto tempo o JEST deve esperar que o teste execute antes de abortá-lo.
+    
+            test('sums two values', () => {
+                expect(sum(2, 3)).toEqual(5);
+            });
+    */
 
 /*
         O JEST procura arquivos com as extensões .js, .jsx, .ts e .tsx dentro de uma pasta com o nome __tests__, ou arquivos com o sufixo .test ou .spec.
