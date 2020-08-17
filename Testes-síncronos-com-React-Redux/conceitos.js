@@ -29,7 +29,7 @@ const renderWithRedux = (
     import React from 'react'
     import { createStore } from 'redux'
     import { Provider } from 'react-redux'
-    import { render, cleanup, fireEvent } from '@testing-library/react';
+    import { render, cleanup } from '@testing-library/react';
     import App from './App';
     import reducer from '../reducers'
 /*
