@@ -12,24 +12,29 @@ Depois de terminar, vamos acessar o diretório do nosso novo app e instalar as d
     npm i redux react-redux
 
 
-Instalar a pasta node-modules para testes
-
-    npm install --save-dev jest
-
-instalar o pacote thunk para códigos assincronos
-
+    
+    instalar o pacote thunk para códigos assincronos
+    
     npm i redux-thunk
-
+    
     OBS: Lembrando de colocar os devidos imports
-
+    
     // src/store/index.js
     import { createStore, applyMiddleware } from 'redux';
     import ReduxThunk from 'redux-thunk';
     .
     .
     .
-
+    
     const store = createStore(reducer, applyMiddleware(ReduxThunk));
 
+Caso o arquivo esteja sem a node modules:
+    
+    Instalar a pasta node-modules para testes
+    
+        npm install --save-dev jest
 
+    Reintalar a node modules:
+
+        npm install
 */
