@@ -37,4 +37,9 @@ Caso o arquivo esteja sem a node modules:
     Reintalar a node modules:
 
         npm install
+
+
+Instalar o devTools
+
+    npm install --save-dev redux-devtools
 */
